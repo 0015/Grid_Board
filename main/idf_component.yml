@@ -1,0 +1,18 @@
+## IDF Component Manager Manifest File
+dependencies:
+  lvgl/lvgl:
+    version: 9.2.*
+    public: true
+  waveshare/esp_lcd_jd9365_10_1: ^1.0.1
+  nimble_peripheral_utils:
+    path: ${IDF_PATH}/examples/bluetooth/nimble/common/nimble_peripheral_utils
+  espressif/esp_wifi_remote:
+    version: '>=0.10'
+    rules:
+    - if: target in [esp32p4, esp32h2]
+  espressif/esp_hosted:
+    version: ~2
+    rules:
+    - if: target in [esp32p4, esp32h2]
+  waveshare/esp32_p4_nano: ^1.1.6
+  espressif/es8311: ^1.0.0~1
