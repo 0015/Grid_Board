@@ -2,6 +2,13 @@
 
 Grid Board is an advanced, large-screen animated character display system based on the **ESP32-P4** platform. This project leverages the **DSI interface** of ESP32-P4 to drive a 10.1" LCD panel at high speed, allowing smooth, visually impressive character animations—including emoji—across a 12×5 grid.
 
+<div align="center">
+
+[![Showcase](./misc/Demo.gif)](https://youtu.be/5czM1kHfi98)
+
+<p>ESP32-P4 Grid Board: BLE Text UI on a 10.1" Display (LVGL + Flutter App)</p>
+</div>
+
 ---
 
 ## Features
